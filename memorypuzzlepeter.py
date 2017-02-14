@@ -12,7 +12,7 @@ WINDOWHEIGHT = 480 # size of windows' height in pixels
 REVEALSPEED = 8 # speed boxes' sliding reveals and covers
 BOXSIZE = 40 # size of box height & width in pixels
 GAPSIZE = 10 # size of gap between boxes in pixels
-BOARDWIDTH = 5 # number of columns of icons #changed the boardwidth from 10 to 5
+BOARDWIDTH = 8 # number of columns of icons #changed the boardwidth from 10 to 5
 BOARDHEIGHT = 4 # number of rows of icons
 assert (BOARDWIDTH * BOARDHEIGHT) % 2 == 0, 'Board needs to have an even number of boxes for pairs of matches.'
 XMARGIN = int((WINDOWWIDTH - (BOARDWIDTH * (BOXSIZE + GAPSIZE))) / 2)
